@@ -71,10 +71,8 @@ export default function App(){
     return true;
   });
 
-  
-  
   return(
-    <div class="bg-mainColor">
+    <div class="w-full max-w-full px-3  sm:flex-none xl:w-1/4">
         <h1 class="mx-auto mt-2 text-white max-w-lg text-center text-4xl font-semibold tracking-tight text-balance text-gray-950 sm:text-5xl">To Do loop</h1>
         <div className="">
           <TaskInput addTask={addTask}/>
