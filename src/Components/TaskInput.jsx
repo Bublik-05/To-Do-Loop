@@ -18,7 +18,7 @@ export default function TaskInput({addTask}){
             <input type="text" id = "task" value={inputValue} placeholder="New Task"
             onChange={(e) => setInputValue(e.target.value)}
             ></input>
-            <button onClick={handleValue} id="add">Add Task</button>
+            <button className="rounded-full border text-white border-indigo-500/100" onClick={handleValue} id="add">Add Task</button>
         </div>
     )
 }

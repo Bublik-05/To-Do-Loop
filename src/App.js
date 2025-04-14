@@ -74,9 +74,9 @@ export default function App(){
   
   
   return(
-    <div>
-        <h1>To Do loop</h1>
-        <div>
+    <div class="bg-mainColor">
+        <h1 class="mx-auto mt-2 text-white max-w-lg text-center text-4xl font-semibold tracking-tight text-balance text-gray-950 sm:text-5xl">To Do loop</h1>
+        <div className="">
           <TaskInput addTask={addTask}/>
           <TaskFilter filter={filter} setFilter={setFilter} filterDate={filterDate} setFilterDate={setFilterDate}/>
           <TaskList tasks={filteredTask} onToggle={toggleTask} onDelete={deleteTask} />
